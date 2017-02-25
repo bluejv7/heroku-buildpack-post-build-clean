@@ -1,3 +1,7 @@
+# Note
+
+This was forked from https://github.com/Lostmyname/heroku-post-build-clean-buildpack
+
 # Post-build Clean Buildpack
 
 A simple buildpack to run after all other buildpacks have completed,
@@ -33,7 +37,7 @@ buildpack order:
 # .buildpacks
 https://github.com/heroku/heroku-buildpack-nodejs
 https://github.com/heroku/heroku-buildpack-ruby
-https://github.com/Lostmyname/heroku-post-build-clean-buildpack
+https://github.com/bluejv7/heroku-post-build-clean-buildpack
 ```
 
 The `.slug-post-clean` file supports single-file and single-directory
